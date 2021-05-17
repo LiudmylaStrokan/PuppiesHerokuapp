@@ -1,0 +1,225 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1276796797,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have opened fake bar bar challenge",
+            "match": {
+              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3606534093,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate the Reset Button",
+        "description": "",
+        "id": "basic-validation;validate-the-reset-button",
+        "after": [
+          {
+            "result": {
+              "duration": 893424254,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 250783286,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should be able to see and click on Reset Button",
+            "match": {
+              "location": "BasicValidationSteps.user_should_be_able_to_see_and_click_on_Reset_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1621453771,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have opened fake bar bar challenge",
+            "match": {
+              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1555368840,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Validate the Weight Button",
+        "description": "",
+        "id": "basic-validation;validate-the-weight-button",
+        "after": [
+          {
+            "result": {
+              "duration": 894918396,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 184719694,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to see and click on Weight Button",
+            "match": {
+              "location": "BasicValidationSteps.user_should_be_able_to_see_and_click_on_Weight_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1024939584,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User have opened fake bar bar challenge",
+            "match": {
+              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2299116195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate the measure results field is displayed",
+        "description": "",
+        "id": "basic-validation;validate-the-measure-results-field-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 829557350,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 112420590,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should see the measure results field",
+            "match": {
+              "location": "BasicValidationSteps.user_should_see_the_measure_results_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Basic validation",
+    "description": "",
+    "id": "basic-validation",
+    "keyword": "Feature",
+    "uri": "features/BasicValidation.feature"
+  }
+]
