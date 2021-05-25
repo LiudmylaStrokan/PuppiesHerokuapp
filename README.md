@@ -50,11 +50,6 @@ public class RegressionRunner {
 }
 ```
 
-The runner class scans all feature files under features folder and executes all scenarios with @regression tag
-on
-
-#### To run the best algorithm to resolve the fake gold bar challenge
-
 In oder to run other tests you change priority to 2,3 in tag and use the following maven command. Otherwise, the tests will run according to tags priority.  
 
 ```shell script
