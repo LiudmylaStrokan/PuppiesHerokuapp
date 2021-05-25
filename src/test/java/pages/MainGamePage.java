@@ -7,32 +7,21 @@ import utilities.Driver;
 
 import java.util.List;
 
-
 public class MainGamePage {
 
-    public MainGamePage(){
+    public MainGamePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//button[text()= 'Reset'] ")
-    public WebElement resetButton;
+    @FindBy(xpath = "//div[@class='puppy_list']")
+    public List<WebElement> listOfAvailablePuppies;
 
-    @FindBy(xpath = "//button[text()= 'Weigh'] ")
-    public WebElement weightButton;
+    @FindBy(xpath = "//div[@class='intro_t']")
+    public WebElement mainPageHeader;
 
-    @FindBy(xpath = "//div[text()= 'Result']//following-sibling::button")
-    public WebElement resultField;
+    @FindBy(xpath = "//input[@name='search']")
+    public WebElement searchField;
 
-    @FindBy(xpath = "//input[@data-side='left']")
-    public List<WebElement> leftBowls;
-
-    @FindBy(xpath = "//input[@data-side='right']")
-    public List<WebElement> rightBowls;
-
-    @FindBy(tagName = "li")
-    public List<WebElement> weighingsListResult;
-
-    @FindBy(xpath = "//button[@class='square']")
-    public List<WebElement> goldBarNumber;
-
+    @FindBy(xpath = "//p[@id='notice']/following::h1")
+    public WebElement puppyListHeader;
 }

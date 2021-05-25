@@ -3,31 +3,10 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1276796797,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "User have opened fake bar bar challenge",
-            "match": {
-              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
         "before": [
           {
             "result": {
-              "duration": 3606534093,
+              "duration": 4497952478,
               "status": "passed"
             },
             "match": {
@@ -35,14 +14,14 @@
             }
           }
         ],
-        "line": 6,
-        "name": "Validate the Reset Button",
+        "line": 4,
+        "name": "User should be able to adopt Topsy",
         "description": "",
-        "id": "basic-validation;validate-the-reset-button",
+        "id": "adoption-process;user-should-be-able-to-adopt-topsy",
         "after": [
           {
             "result": {
-              "duration": 893424254,
+              "duration": 2271423875,
               "status": "passed"
             },
             "match": {
@@ -55,171 +34,303 @@
         "steps": [
           {
             "result": {
-              "duration": 250783286,
+              "duration": 2451706692,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has opened http://puppies.herokuapp.com/ page in the browser",
+            "match": {
+              "location": "AdoptAvailableDogSteps.user_has_opened_http_puppies_herokuapp_com_page_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2240941478,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see \"Brook\" puppy available on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brook",
+                  "offset": 17
+                }
+              ],
+              "location": "AdoptAvailableDogSteps.userShouldSeePuppyAvailableOnThePage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2696978763,
               "status": "passed"
             },
             "line": 7,
-            "name": "user should be able to see and click on Reset Button",
+            "name": "user clicks View Details Button by \"Brook\" puppy",
             "match": {
-              "location": "BasicValidationSteps.user_should_be_able_to_see_and_click_on_Reset_Button()"
+              "arguments": [
+                {
+                  "val": "Brook",
+                  "offset": 36
+                }
+              ],
+              "location": "AdoptAvailableDogSteps.userClicksViewDetailsButtonByPuppy(String)"
             },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 5,
-            "name": "@regression"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 1621453771,
+              "duration": 2185607725,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User have opened fake bar bar challenge",
+            "line": 8,
+            "name": "user should see a puppy\u0027s photo displayed on the page",
             "match": {
-              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
+              "location": "AdoptAvailableDogSteps.user_should_see_a_puppy_s_photo_displayed_on_the_page()"
             },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 1555368840,
+              "duration": 2877044496,
               "status": "passed"
             },
+            "line": 9,
+            "name": "user clicks on Adopt Me! button",
             "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 9,
-        "name": "Validate the Weight Button",
-        "description": "",
-        "id": "basic-validation;validate-the-weight-button",
-        "after": [
-          {
-            "result": {
-              "duration": 894918396,
-              "status": "passed"
+              "location": "AdoptAvailableDogSteps.user_clicks_on_Adopt_Me_button()"
             },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 184719694,
+              "duration": 2734324121,
               "status": "passed"
             },
             "line": 10,
-            "name": "user should be able to see and click on Weight Button",
+            "name": "user clicks Complete the Adoption Button",
             "match": {
-              "location": "BasicValidationSteps.user_should_be_able_to_see_and_click_on_Weight_Button()"
+              "location": "AdoptAvailableDogSteps.user_clicks_Complete_the_Adoption_Button()"
             },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 8,
-            "name": "@regression"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
+            "keyword": "And "
+          },
           {
             "result": {
-              "duration": 1024939584,
+              "duration": 9090177931,
               "status": "passed"
             },
-            "line": 4,
-            "name": "User have opened fake bar bar challenge",
-            "match": {
-              "location": "BasicValidationSteps.user_have_opened_fake_bar_bar_challenge()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2299116195,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Validate the measure results field is displayed",
-        "description": "",
-        "id": "basic-validation;validate-the-measure-results-field-is-displayed",
-        "after": [
-          {
-            "result": {
-              "duration": 829557350,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 112420590,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user should see the measure results field",
-            "match": {
-              "location": "BasicValidationSteps.user_should_see_the_measure_results_field()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
             "line": 11,
-            "name": "@regression"
+            "name": "user fills out fields with the following information",
+            "match": {
+              "location": "AdoptAvailableDogSteps.user_fills_out_fields_with_the_following_information(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Address",
+                  "Email",
+                  "Payment Type"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "John Doe",
+                  "333 Michigan St., Chicago, IL 60000",
+                  "john@gmail.com",
+                  "Check"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2250638837,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "place oder button should be displayed",
+            "match": {
+              "location": "AdoptAvailableDogSteps.place_oder_button_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@priority_1"
           }
         ]
       }
     ],
-    "name": "Basic validation",
+    "name": "Adoption process",
     "description": "",
-    "id": "basic-validation",
+    "id": "adoption-process",
     "keyword": "Feature",
-    "uri": "features/BasicValidation.feature"
+    "uri": "features/AdoptAvailablePuppy.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2310569510,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has opened http://puppies.herokuapp.com/ page in the browser",
+            "match": {
+              "location": "AdoptAvailableDogSteps.user_has_opened_http_puppies_herokuapp_com_page_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2593756528,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be able to see the Header on the main page",
+        "description": "",
+        "id": "presence-of-required-webelements-on-the-page;user-should-be-able-to-see-the-header-on-the-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1572195077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2139208872,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should see \"Home of the Happy Puppy\" header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home of the Happy Puppy",
+                  "offset": 17
+                }
+              ],
+              "location": "MainPageElementsArePresent.user_should_see_header(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@priority_2"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000524448,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has opened http://puppies.herokuapp.com/ page in the browser",
+            "match": {
+              "location": "AdoptAvailableDogSteps.user_has_opened_http_puppies_herokuapp_com_page_in_the_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2658552089,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User should be able to see the search field",
+        "description": "",
+        "id": "presence-of-required-webelements-on-the-page;user-should-be-able-to-see-the-search-field",
+        "after": [
+          {
+            "result": {
+              "duration": 1631387090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2178900702,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should see search field",
+            "match": {
+              "location": "MainPageElementsArePresent.user_should_see_search_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@priority_3"
+          }
+        ]
+      }
+    ],
+    "name": "Presence of Required WebElements on the Page",
+    "description": "",
+    "id": "presence-of-required-webelements-on-the-page",
+    "keyword": "Feature",
+    "uri": "features/MainPageElementsAreDisplayed.feature"
   }
 ]

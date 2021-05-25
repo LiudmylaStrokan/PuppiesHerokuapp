@@ -1,9 +1,0 @@
-runner\Runner.class
-step_defs\BasicValidationSteps.class
-utilities\ChromeWebDriver.class
-utilities\Helper.class
-step_defs\ThreeStepsAlgorithmSteps.class
-utilities\ConfigReader.class
-utilities\Driver.class
-step_defs\Hooks.class
-pages\MainGamePage.class

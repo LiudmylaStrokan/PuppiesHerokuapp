@@ -34,4 +34,11 @@ public class Helper {
         waitForElementToBeDisplayed(element);
         element.click();
     }
+
+    public static void highlightElement(WebElement element) throws InterruptedException {
+        JavascriptExecutor js = (JavascriptExecutor)Driver.getDriver();
+        String style = "border:4px solid red";
+        js.executeScript("arguments[0].setAttribute('style',arguments[1]);",element,style);
+        Thread.sleep(2000);
+    }
 }

@@ -1,22 +1,21 @@
-##Fetch Rewards Coding Exercise - SDET 
+##Puppies Herokuapp
 
-This is a mock BDD UI Framework applying POM pattern. I created couple simple tests just as an example in BasicValidation.feature and implemented them in the 
-step_defs in BasicValidation class. Three steps algorithm to resolve the challenge was identefied in the ThreeStepsAlgorithm.feature file and was implemented in the ThreeStepsAlgorithmSteps class.
-Also, I created a simple utils package for a driver implementation(a Chrome is being used but other drivers could be added easily), and a helper class with a couple of additional methods. 
- 
+This is a mock BDD UI Framework applying POM pattern. I created a couple simple tests in AdoptAvailablePuppy.feature and MainElementsAreDisplayed.feature and implemented them in the 
+step_defs package. A simple utils package was created for a driver implementation(a Chrome is being used but other drivers could be added easily), and a helper class with a couple of additional methods. 
+
 ####Prerequisites
  You must have java and maven installed on your machine. 
 
-####To run the regression tests
+####To run the tests
 Clone the project from the GitHub using the following command 
 ```shell script
-git clone "......"
+git clone https://github.com/LiudmylaStrokan/PuppiesHerokuapp.git
 ```
 
-In oder to run regression test you need to run the following maven command 
+In oder to run first priority test you need to run the following maven command 
 
 ```shell script
-mvn install -Dcucumber.options="--tags @regression"
+mvn install -Dcucumber.options="--tags @priority_1"
 ```
 hen mvn clean install is run maven triggers maven surefire plugin below
 
@@ -51,15 +50,15 @@ public class RegressionRunner {
 }
 ```
 
-The Regression runner class scans all feature files under features folder and executes all scenarios with @regression tag
+The runner class scans all feature files under features folder and executes all scenarios with @regression tag
 on
 
 #### To run the best algorithm to resolve the fake gold bar challenge
 
-In oder to run the best algorithm to resolve the gold bar challenge you need to run the following maven command 
+In oder to run other tests you change priority to 2,3 in tag and use the following maven command. Otherwise, the tests will run according to tags priority.  
 
 ```shell script
-mvn install -Dcucumber.options="--tags @algorithm"
+mvn install -Dcucumber.options="--tags @priority_2"
 ```
 
-"# FakeGoldBar" 
+
